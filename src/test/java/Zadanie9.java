@@ -85,6 +85,7 @@ public class Zadanie9 {
             sortedselectZonesList2.sort(Comparator.naturalOrder());
             Assert.assertEquals("not equal", selectZonesList2, sortedselectZonesList2);
             driver.navigate().back();
+            
         }
     }
 
