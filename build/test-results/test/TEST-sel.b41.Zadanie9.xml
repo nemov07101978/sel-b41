@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sel.b41.Zadanie9" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-06T04:56:23" hostname="idea-PC" time="134.039">
+  <properties/>
+  <testcase name="sort" classname="sel.b41.Zadanie9" time="134.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 15108
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+мая 06, 2019 7:56:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
