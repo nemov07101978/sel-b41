@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -78,7 +79,8 @@ public class Zadanie9 {
             List<WebElement> selectZones2 = driver.findElements(By.cssSelector("#table-zones tr td:nth-child(3) select"));
             List<String> selectZonesList2 = new ArrayList<String>();
             for (WebElement oneselectZones2 : selectZones2) {
-                String selectZonesText = oneselectZones2.getText();
+                Select selectZone = new Select(oneselectZones2);
+                String selectZonesText = selectZone.getFirstSelectedOption().getText();
                 selectZonesList2.add(selectZonesText);
                 }
             List<String> sortedselectZonesList2 = selectZonesList2;
